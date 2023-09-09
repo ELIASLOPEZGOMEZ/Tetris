@@ -1,0 +1,52 @@
+@startuml tetris
+class Persona
+class Juego
+class Pantalla 
+class Color 
+class Forma
+class Cubo
+class L
+class J
+class Cuadro
+class S
+class Z
+class T
+class Guion
+class Linea
+class Fondo
+class Estadisticas
+class Score
+class Nivel
+class Top
+class Limite
+class Rojo
+class Naranja
+class Negro
+class Blanco
+Juego *-- Forma
+Juego *-- Pantalla
+Juego *-- Color
+Juego *-- Fondo
+Forma o-- Cubo
+Forma *-- Color 
+Forma o-- Limite
+S --|> Forma
+L --|> Forma
+Z --|> Forma
+J --|> Forma
+T --|> Forma
+Guion --|> Forma
+Cuadro --|> Forma
+Linea ---|> Forma
+Fondo o-- Color 
+Pantalla *-- Estadisticas 
+Pantalla *-- Limite
+Pantalla *-- Top
+Pantalla *-- Nivel
+Pantalla *-- Score
+Negro --|> Color
+Naranja --|> Color
+Blanco --|> Color
+Rojo--|> Color
+Persona o-- Juego
+@enduml
