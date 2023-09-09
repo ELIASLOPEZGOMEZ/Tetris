@@ -1,0 +1,1 @@
+g++ src/tetris.cpp -o bin/tetris -I include

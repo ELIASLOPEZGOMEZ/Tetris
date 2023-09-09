@@ -1,5 +1,6 @@
 #include <string>
 #include <iostream>
+
 class Mascota
 {
 private:
