@@ -1,1 +1,1 @@
-./bin/tetris
+./bin/mascota
