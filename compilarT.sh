@@ -1,1 +1,1 @@
-g++ src/mascota.cpp -o bin/mascota -I include
+g++ src/tetris.cpp -o bin/tetris -I include
